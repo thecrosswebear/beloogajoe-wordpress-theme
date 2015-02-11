@@ -1,0 +1,162 @@
+/*   
+Theme Name: BLANK Theme
+Theme URI: http://digwp.com
+Description: This is just a BLANK starter WordPress Theme template -- WordPress v3.0.1
+Author: Chris Coyier
+Author URI: http://chriscoyier.net
+Version: 2
+*/
+
+* { margin: 0; 
+    padding: 0; 
+    font-family: 'Arvo', serif;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    
+   
+    
+ 
+
+}
+body { background: white; color: black;  font-size: 12px; }
+/*body { background: white; font: 14px/1.4 Georgia, Serif; }
+.screen-reader-text { position: absolute; left: -9999px; top: -9999px; }
+.clear { clear: both; }
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .group, *:first-child+html .group { zoom: 1; } /* First selector = IE6, Second Selector = IE 7 */
+
+
+/* CSS Document */
+
+#page-wrap
+{
+	max-width: 800px;
+        
+	margin: 0 auto; 
+}
+
+h1
+{
+    padding-top: 10px; 
+    text-align: center; 
+    
+    
+}
+
+h1 a
+{
+    /*border: 3px solid black; 
+    border-radius: 15px; 
+    padding: 10px; 
+    */
+}
+
+.post
+{
+    text-align: center; 
+}
+
+.post h2
+{
+   padding-bottom: 10px; 
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-top: 15px; */
+    border: 2px solid black; 
+    border-radius: 15px; 
+}
+
+.meta
+{
+    font-size: 10px; 
+    padding-bottom: 30px; 
+    
+}
+
+.mauve
+{
+    color: yellow; 
+    background-color: red; 
+}
+
+#footer 
+{
+	text-align: center;
+        padding-top: 50px; 
+        font-size: 10px; 
+        padding-bottom: 30px; 
+}
+
+.nav-pills
+{
+    display: inline-block;
+    
+}
+
+.nav-pills li
+{
+    padding-left: 20px;
+    padding-right: 20px; 
+    
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > li.active > a, .nav-pills > li.active > a:hover {
+    background-color: whitesmoke;
+    color: black; 
+    border: 1px solid black; 
+}
+
+.nav-pills > li > a:hover
+{
+    background-color: whitesmoke;
+    /*border: 1px solid black; */
+}
+
+.entry
+{
+    padding-top: 0px; 
+    padding-bottom: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center ; 
+}
+
+#header
+{   
+    padding-bottom: 10px; 
+}
+
+#separateur
+{
+    height: 40px; 
+}
+a:hover
+{
+    color: darkgrey; 
+}
+
+a{
+    color: black; 
+    text-align: center !important; 
+}
+
+.navigation
+{
+    text-align: center; 
+}
+
+#header
+{
+    /*visibility: hidden; */
+    /*display: none;*/
+}
+
+p
+{
+    text-align: center !important; 
+}
